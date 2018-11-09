@@ -12,26 +12,12 @@ permalink: /contact
     <div class="mb-3 mb-md-5 col-md-6 float-left">
       <h3 class="alt-h3 mb-2">
 Voici mes coordonnées
-      </h3>
-<form action="https://formspree.io/YOUREMAILHERE" method="post">
-    <div>
-      <label for="name">Prénom :</label>
-        <input type="text" id="name" name="user_name">
-     </div>
-     <div>
-        <label for="lastname">Nom :</label>
-        <input type="text" id="lastname" name="user_lastname">
-    </div>
-    <div>
-        <label for="mail">e-mail :</label>
-        <input type="email" id="mail" name="user_mail">
-    </div>
-    <div>
-        <label for="msg">Message :</label>
-        <textarea id="msg" name="user_message"></textarea> 
-<div>
-<imput type="submit">
-</div>
+      </h3>      
+<form method="POST" action="https://formspree.io/YOUREMAILHERE">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Test Message"></textarea>
+  <button type="submit">Send Test</button>
+</form>
       <div> <a href="mailto:adelaide.poisson@gmail.com" sujet= Je recherche un stagiaire> Je recherche un stagaire</a> </div>
     </div>
 </form>
